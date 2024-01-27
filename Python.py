@@ -11,7 +11,7 @@ print(f"Format daty 2: {dzisiaj.strftime('%y/%B/%d %I:%M:%S %p')}")
 koniec_roku = datetime(dzisiaj.year, 12, 31)
 dni_do_konca_roku = (koniec_roku - dzisiaj).days
 print(f"Ilość dni do końca roku: {dni_do_konca_roku} dni")
-
+#dodatkowy komentarz dodany przez kolaboranta
 dni_od_poczatku_roku = (dzisiaj - datetime(dzisiaj.year, 1, 1)).days + 1
 print(f"Ilość dni od początku roku: {dni_od_poczatku_roku} dni")
 
