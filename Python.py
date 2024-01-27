@@ -1,9 +1,9 @@
 from datetime import datetime, timedelta
 import time
-
+#kometarz na zajęcia inżynierskie
 dzisiaj = datetime.now()
 print(f"Dzisiejsza data: {dzisiaj}")
-
+#kolejny komnetrz na narzędzia inżynierskie
 print(f"Format daty 1: {dzisiaj.strftime('%Y/%m/%d %H:%M:%S')}")
 
 print(f"Format daty 2: {dzisiaj.strftime('%y/%B/%d %I:%M:%S %p')}")
@@ -18,6 +18,6 @@ print(f"Ilość dni od początku roku: {dni_od_poczatku_roku} dni")
 print(f"Dzień tygodnia: {dzisiaj.strftime('%A')}")
 print(f"Miesiąc: {dzisiaj.strftime('%B')}")
 print(f"Rok: {dzisiaj.strftime('%Y')}")
-
+#ostatni komentarz na narzędzia inżynierskie
 nr_tygodnia = datetime.now().isocalendar()[1]
 print(f"Który to tydzień roku: {nr_tygodnia}")
